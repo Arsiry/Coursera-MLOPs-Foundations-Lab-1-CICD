@@ -1,14 +1,14 @@
 """
 Test goes here
-
 """
 
-from mylib.calculator import add
 from click.testing import CliRunner
+from mylib.calculator import add
 from main import add_cli
 
 
 def test_add():
+    """Test the add function."""
     assert add(1, 2) == 3
 
 
@@ -20,12 +20,10 @@ def test_help():
     assert "Show this message and exit." in result.output
 
 
-# write a test for the add_cli function that calls the add_cli function with the arguments 1 and 2 and checks that the output is 3.
 def test_add_cli():
     """Test the add_cli command."""
     runner = CliRunner()
     result = runner.invoke(add_cli, ['1', '2'])
 
-    assert result.exit_code == 0  # Проверяем, что команда завершилась успешно
-    assert '3' in result.output  # Проверяем, что вывод содержит правильную сумму
-
+    assert result.exit_code == 0
+    assert '3' in result.output
