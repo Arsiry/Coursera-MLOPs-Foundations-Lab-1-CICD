@@ -13,7 +13,7 @@ uvicorn==0.18.3
 # datascience
 jupyter==1.0.0
 pandas==1.5.3
-numpy==1.23.5
+numpy==1.24.3
 scikit-learn==1.2.2
 matplotlib==3.6.3
 seaborn==0.12.2
@@ -25,7 +25,7 @@ geopy==2.2.0
 # MLOps
 gradio==3.4.1
 streamlit==1.16.0
-protobuf==3.20.3
+protobuf==3.20.1
 onnx==1.14.0
 mlflow==2.5.0
 databricks==0.2
