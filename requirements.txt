@@ -6,19 +6,11 @@ pytest-cov==4.0.0
 pylint==2.15.3
 boto3==1.24.87
 
-<<<<<<< HEAD
-#web
-fastapi==0.85.0
-uvicorn==0.18.3
-
-#datascience
-=======
 # web
 fastapi==0.85.0
 uvicorn==0.18.3
 
 # datascience
->>>>>>> 1a45163eac70561a56abfbe6c595759d46677b87
 jupyter==1.0.0
 pandas==1.5.3
 numpy==1.23.5
@@ -27,17 +19,10 @@ matplotlib==3.6.3
 seaborn==0.12.2
 dask==2022.9.2
 
-<<<<<<< HEAD
-#geo
-geopy==2.2.0
-
-#MLOps
-=======
 # geo
 geopy==2.2.0
 
 # MLOps
->>>>>>> 1a45163eac70561a56abfbe6c595759d46677b87
 gradio==3.4.1
 streamlit==1.16.0
 protobuf==3.20.3
@@ -45,27 +30,12 @@ onnx==1.14.0
 mlflow==2.5.0
 databricks==0.2
 databricks-cli==0.17.3
-<<<<<<< HEAD
-databricks-sql-connector==2.1.0
-
-##MLOps-HuggingFace
-transformers==4.22.2
-datasets==2.5.2
-tokenizers==0.12.1
-
-#deep learning
-torch==1.12.1
-torchvision==0.13.1
-tensorflow==2.10.0
-
-=======
 databricks-sql-connector==2.7.0
 
 # MLOps-HuggingFace
 transformers==4.30.2
 datasets==2.5.2
 tokenizers==0.13.3
->>>>>>> 1a45163eac70561a56abfbe6c595759d46677b87
 
 # deep learning
 torch==2.0.1
